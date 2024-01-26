@@ -1,4 +1,4 @@
-const axios = require('axios').default;
+import axios from "axios";
 // http://www.omdbapi.com/?apikey=55e30f57&
 export const API_BASE_URL = 'https://www.omdbapi.com/?apikey=55e30f57';
 
