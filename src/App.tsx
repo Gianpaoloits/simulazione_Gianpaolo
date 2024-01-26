@@ -1,13 +1,14 @@
 import './App.css'
+import { Box, ChakraProvider } from '@chakra-ui/react'
 
 function App() {
 
   return (
-    <>
-      <div>
-      <h1>Vite + React</h1>
-      </div>
-    </>
+    <ChakraProvider>
+      <Box>
+      Vite + React
+      </Box>
+    </ChakraProvider>
   )
 }
 
